@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Streaming Film</title>
+    <link rel="stylesheet" href="film.css">
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <style>
+      .search-container {
+        margin-left: 800px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .search-container form {
+        display: flex;
+        align-items: center;
+      }
+      
+      .search-container input[type="text"] {
+        padding: 5px 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.688);
+      }
+      
+      .search-container button {
+        padding: 5px 10px;
+        font-size: 16px;
+        border: none;
+        background-color: #555;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-left: 5px;
+      }
+      
+      .search-container button:hover {
+        background-color: #777;
+      }
+    </style>
+
+</head>
+<body>
+  <header>
+    <div class="logo">NARA</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="index.html">Acara TV</a></li>
+            <li><a href="index.html">Film</a></li>
+        </ul>
+    </nav>
+    
+    <div class="search-container">
+      <form action="Halaman.html" method="get">
+          <input type="text" placeholder="Cari..." name="query">
+          <button type="submit">&#128269;</button>
+      </form>
+  </div>
+    <a href="login.html">
+      <img src="assets/key.png" alt="Profil" class="profile-icon">
+    </a>
+  </header>
+  
+  <div class="video-text">
+    <iframe id="myVideo" width="315" height="315" src="https://www.youtube.com/embed/8X_juWUs0Zs" frameborder="0" allowfullscreen></iframe>
+    <h2>Jumanji: The Next Level (2019)</h2>
+    <p>Dalam Jumanji: The Next Level, keempat sahabat kembali lagi, tetapi permainannya telah berubah. Saat memutuskan masuk lagi ke Jumanji untuk menyelamatkan salah satu dari mereka, mereka menemukan segalanya tak seperti yang diduga. Para pemain harus melaju ke wilayah-wilayah tersembunyi dan belum dijamah, dari gurun nan gersang ke pegunungan bersalju, demi meloloskan diri dari permainan paling berbahaya di dunia.</p>
+      
+    
+<!-- Table added below the paragraph -->
+<table>
+  <caption>Movie Details</caption>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Director</td>
+      <td>Jake Kasdan</td>
+    </tr>
+    <tr>
+      <td>Release Year</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <td>Genre</td>
+      <td>Science Fiction</td>
+    </tr>
+    <tr>
+      <td>Rating</td>
+      <td>8.6/10</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Tonton Full Movie Disini</h2>
+<button onclick="window.location.href='register.html'">Klik Disini</button>
+  </div>
+<main>
+  <section id="film-section" class="top-movies">
+    <h2>Film & Acara Tv Terkait</h2>
+    <div class="movie-list">
+        <div class="movie-item">
+          <a href="film1.html">
+            <img src="https://i.pinimg.com/564x/d2/70/89/d270896d9bfbc63513d1090224070e8b.jpg" alt="Interstellar">
+          </a>
+            <div class="movie-rank">WEBDL</div>
+            <div class="movie-title">Interstellar</div>
+        </div>
+        <div class="tv-show-list">
+          <div class="tv-show-item">
+            <a href="tv1.html">
+              <img src="https://i.pinimg.com/564x/f7/70/d6/f770d6b297c92d2a8de5a28922e42d80.jpg" alt="Home Alone">
+            </a>
+              <div class="tv-show-rank">WEBDL</div>
+              <div class="tv-show-title">Home Alone</div>
+          </div>
+        <div class="movie-item">
+          <a href="film3.html">
+            <img src="https://i.pinimg.com/564x/24/05/f5/2405f5d1220d45fef53df0bfe804e104.jpg" alt="Avengers end game">
+          </a>       
+            <div class="movie-rank">BLURAY</div>
+            <div class="movie-title">Avengers end game</div>
+        </div>
+        <div class="movie-item">
+          <a href="film4.html">
+            <img src="https://i.pinimg.com/564x/a3/b8/b9/a3b8b9b7e722c62d975b693e2a5e9838.jpg" alt="Avatar">
+          </a>
+            <div class="movie-rank">WEBDL</div>
+            <div class="movie-title">Avatar</div>
+        </div>
+        <div class="movie-item">
+          <a href="film5.html">
+            <img src="https://i.pinimg.com/564x/02/12/b4/0212b4a89dc44f6cf134af4a4d13f156.jpg" alt="Cargo">
+          </a>
+            <div class="movie-rank">HDCAM</div>
+            <div class="movie-title">Cargo</div>
+        </div>
+        <div class="tv-show-item">
+          <a href="tv6.html">
+            <img src="https://i.pinimg.com/736x/6e/42/0b/6e420b7bd2a65359258ee4c5ee1501dd.jpg" alt="Money Heist">
+          </a>
+            <div class="tv-show-rank">BLURAY</div>
+            <div class="tv-show-title">Money Heist</div>
+        </div>
+    </div>
+</section>
+</main>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Tentang Kami</h3>
+            <p> NARASTREAM adalah platform menonton film full movie dengan subtitle Indonesia secara gratis. Ini merupakan opsi yang tepat bagi yang tidak berlangganan layanan streaming seperti Netflix, Disney+, HBO, dan lainnya. Film-film terbaru selalu diperbarui dan bisa diakses melalui TikTok, Facebook, dan Instagram. Dengan NARASTREAM, menonton film favorit tanpa biaya tambahan menjadi lebih menyenangkan. Ayo sambut pengalaman menonton film yang lebih praktis dan terjangkau bersama NARASTREAM.</p>
+        </div>
+        <div class="footer-content">
+            <h3>Kontak Kami</h3>
+            <p>Alamat: Arjuna 7, Kasihan Bantul Yogyakarta. Indonesia</p>
+            <p>Email: narastream@example.com</p>
+            <p>Telepon: 123-456-7890</p>
+            <p>Instagram: <a href="https://instagram.com/narastream.id" style="color: #C13584; text-decoration: none;">@narastream.id</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2024 by NARASTREAM. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
